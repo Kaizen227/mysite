@@ -1,5 +1,6 @@
 Create a repository as public or private
 git clone "<github repository url>"
 git add .
-git commit -m "<comments>"
-git push https://$(git_token)@github.com/user_name/repo_name.git
+git status - this will show all the files added in the local repository
+git commit -m "<comments>" - this will commit the code in local repository
+git push https://$(git_token)@github.com/user_name/repo_name.git - this will push the code in remote repositopry
