@@ -1,0 +1,5 @@
+Create a repository as public or private
+git clone "<github repository url>"
+git add .
+git commit -m "<comments>"
+git push https://$(git_token)@github.com/user_name/repo_name.git
